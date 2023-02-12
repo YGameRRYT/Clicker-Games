@@ -1,0 +1,82 @@
+* {
+  text-align: center;
+}
+
+body {
+  background-color: #58ACFA;
+}
+
+h1, h2 {
+  font-family: "Trebuchet MS";
+}
+
+h4 {
+  font-family: "Trebuchet MS";
+  color: darkred;
+}
+
+p, var {
+  font-family: Arial;
+  font-style: normal;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  font-family: Trebuchet MS
+}
+
+th {
+  background-color: darkblue;
+  color: cyan;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+tr:nth-child(odd) {
+  background-color: #ffffff
+}
+
+.buy {
+  cursor: pointer;
+  background-color: red;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+img {
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px
+}
+.help {
+font-size: 14px
+}
+.itemhelp {
+font-size: 24px;
+font-family: Trebuchet MS;
+font-weight:700;
+}
+.cps {
+font-size: 24px;
+font-family: Trebuchet MS;
+font-weight:700;
+}
+.cpc {
+font-size: 24px;
+font-family: Trebuchet MS;
+font-weight:700;
+}

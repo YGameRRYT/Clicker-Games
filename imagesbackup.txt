@@ -1,0 +1,6 @@
+const images = {
+  "PixelArt": "https://p.kindpng.com/picc/s/91-910829_pixel-car-green-side-clip-arts-transparent-8.png",
+  "Oreo": "http://cdn.skim.gs/image/upload/v1456337658/msi/oreo-cookie-isolated_s9xwjo.jpg",
+  "M&M Cookie": "https://cdn.shopify.com/s/files/1/0302/2969/products/great-cookie-m_and_m-cookie-03_1024x1024.jpg?v=1390499314",
+  "Oatmeal Raisin": "https://soulfullysweet.com/wp-content/uploads/2015/05/crop-oatmeal-cookie.jpg"
+};

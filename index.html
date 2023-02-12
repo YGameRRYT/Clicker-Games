@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Car Clicker</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="favicon.gif" type="image/gif" sizes="16x16" />
+  </head>
+  <body>
+    <script src="createTable.js"></script>
+    <script src="vars.js"></script>
+    <script src="table.js"></script>
+    <script src="index.js"></script>
+    
+    <h1>Car Clicker v0.2</h1>
+    <h4>HP:</h4> <h2 id="cookieCount"></h2>
+    <img src="game1.png" onclick="bakeCookie();" />
+
+    <h4>Stats</h4>
+    <p class="cps">HP per second: <var id="cps"></var></p>
+    <p class="cpc">HP per click: <var id="cpc"></var></p>
+    <div class="help">
+      <p class="itemhelp">Scroll down to buy more items!</p>
+    </div>
+    <h4>Autoclick Items</h4>
+    <table id="acTable"></table>
+
+    <h4>Multiclick Items</h4>
+    <table id="mcTable"></table>
+    
+  </body>
+</html>
