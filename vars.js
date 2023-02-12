@@ -36,7 +36,7 @@ var autoclickItems = [
   {
     name: "T1 Supercharger",
     initialCost: 705,
-    rate: 5,
+    rate: 4,
     description: "Make any car sound like a Hellcat"
   },
   {
@@ -48,7 +48,7 @@ var autoclickItems = [
   {
       name: "T2 Supercharger",
       initialCost: 9100,
-      rate: 10,
+      rate: 12,
       description: "LET IT WHINE!!!"
     },
   {
@@ -103,13 +103,13 @@ var autoclickItems = [
        name: "T5 Supercharger",
         initialCost: 44100,
         rate: 47,
-        description: "Tier 5 stututu actions, very good!"
+        description: "Tier 5 whines!"
          },
          {
            name: "T5 Engine",
            initialCost: 44100,
            rate: 47,
-           description: "Tier 5 stututu actions, very good!"
+           description: "Tier 5 Engine."
            },
 ];
 
