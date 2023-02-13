@@ -129,6 +129,24 @@ var autoclickItems = [
            rate: 55,
            description: "Tier 6 Engine."
            },
+   {
+        name: "T7 Turbo",
+        initialCost: 102000,
+        rate: 60,
+         description: "Tier 6 stututu actions, very good but better!"
+       },
+       {
+       name: "T7 Supercharger",
+        initialCost: 102100,
+        rate: 62,
+        description: "Tier 6 whines!"
+         },
+         {
+           name: "T7 Engine",
+           initialCost: 103000,
+           rate: 65,
+           description: "Tier 6 Engine."
+           },
 ];
 
 var multiclickItems = [
