@@ -133,19 +133,73 @@ var autoclickItems = [
         name: "T7 Turbo",
         initialCost: 102000,
         rate: 60,
-         description: "Tier 6 stututu actions, very good but better!"
+         description: "Tier 7 stututu.."
        },
        {
        name: "T7 Supercharger",
         initialCost: 102100,
         rate: 62,
-        description: "Tier 6 whines!"
+        description: "Tier 7 Supercharger"
          },
          {
            name: "T7 Engine",
            initialCost: 103000,
            rate: 65,
-           description: "Tier 6 Engine."
+           description: "Tier 7 Engine."
+           },
+   {
+        name: "T8 Turbo",
+        initialCost: 202000,
+        rate: 90,
+         description: "Tier 8 stututu.."
+       },
+       {
+       name: "T8 Supercharger",
+        initialCost: 202100,
+        rate: 92,
+        description: "Tier 8 Supercharger"
+         },
+         {
+           name: "T8 Engine",
+           initialCost: 203000,
+           rate: 95,
+           description: "Tier 8 Engine."
+           },
+    {
+        name: "T9 Turbo",
+        initialCost: 442000,
+        rate: 120,
+         description: "Tier 9 Turbocharger"
+       },
+       {
+       name: "T9 Supercharger",
+        initialCost: 442100,
+        rate: 122,
+        description: "Tier 9 Supercharger"
+         },
+         {
+           name: "T9 Engine",
+           initialCost: 443000,
+           rate: 125,
+           description: "Tier 9 Engine."
+           },
+    {
+        name: "T10 Turbo",
+        initialCost: 442000,
+        rate: 180,
+         description: "Tier 10 Turbocharger"
+       },
+       {
+       name: "T10 Supercharger",
+        initialCost: 442100,
+        rate: 182,
+        description: "Tier 10 Supercharger"
+         },
+         {
+           name: "T10 Engine",
+           initialCost: 883000,
+           rate: 185,
+           description: "Tier 10 Engine."
            },
 ];
 
@@ -186,16 +240,41 @@ var multiclickItems = [
     rate: 11,
     description: "BURN THE FUEL!"
   },
+  {
+    name: "200 RON Fuel",
+    initialCost: 15000,
+    rate: 20,
+    description: "BURN THE FUEL!"
+  },
    {
       name: "Complete Body Revamp",
       initialCost: 30000,
       rate: 29,
-      description: "Complete reset of the car body."
+      description: "Complete revamp of the car body."
     },
    {
       name: "Small Thrusters",
       initialCost: 90000,
       rate: 45,
-      description: "Complete reset of the car body."
+      description: "small thrusters, they do the job."
     },
+{
+      name: "Medium Size Thrusters",
+      initialCost: 150000,
+      rate: 65,
+      description: "Medium size, bigger than small thrusters."
+    },
+  {
+      name: "Large Thrusters",
+      initialCost: 300000,
+      rate: 85,
+      description: "One of the bigger thrusters"
+    },
+    {
+      name: "XL Thrusters",
+      initialCost: 900000,
+      rate: 165,
+      description: "Extra Large Thrusters"
+    },
+  
 ];
