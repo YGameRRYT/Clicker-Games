@@ -185,13 +185,13 @@ var autoclickItems = [
            },
     {
         name: "T10 Turbo",
-        initialCost: 442000,
+        initialCost: 882000,
         rate: 180,
          description: "Tier 10 Turbocharger"
        },
        {
        name: "T10 Supercharger",
-        initialCost: 442100,
+        initialCost: 882100,
         rate: 182,
         description: "Tier 10 Supercharger"
          },
