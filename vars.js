@@ -13,6 +13,16 @@ Copy for new item:
     description: ""
   }
 */
+/*
+i have no idea
+,
+  {
+    name: "",
+    initialCost: #,
+    rate: #,
+    description: ""
+  }
+*/
 
 var autoclickItems = [
   {
