@@ -107,9 +107,27 @@ var autoclickItems = [
          },
          {
            name: "T5 Engine",
-           initialCost: 44100,
-           rate: 47,
+           initialCost: 46100,
+           rate: 49,
            description: "Tier 5 Engine."
+           },
+        {
+        name: "T6 Turbo",
+        initialCost: 74000,
+        rate: 50,
+         description: "Tier 6 stututu actions, very good but better!"
+       },
+       {
+       name: "T6 Supercharger",
+        initialCost: 74100,
+        rate: 52,
+        description: "Tier 6 whines!"
+         },
+         {
+           name: "T6 Engine",
+           initialCost: 77000,
+           rate: 55,
+           description: "Tier 6 Engine."
            },
 ];
 
@@ -154,6 +172,12 @@ var multiclickItems = [
       name: "Complete Body Revamp",
       initialCost: 30000,
       rate: 29,
+      description: "Complete reset of the car body."
+    },
+   {
+      name: "Small Thrusters",
+      initialCost: 90000,
+      rate: 45,
       description: "Complete reset of the car body."
     },
 ];
