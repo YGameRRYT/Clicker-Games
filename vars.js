@@ -262,28 +262,46 @@ var multiclickItems = [
       rate: 29,
       description: "Complete revamp of the car body."
     },
+     {
+      name: "Body Improvements",
+      initialCost: 37500,
+      rate: 40,
+      description: "body improvements."
+    },
+   {
+      name: "Powerful Engine Swap",
+      initialCost: 45000,
+      rate: 55,
+      description: "Kind of like the 900hp hertz car"
+    },
    {
       name: "Small Thrusters",
       initialCost: 90000,
-      rate: 45,
+      rate: 75,
       description: "small thrusters, they do the job."
+    },
+  {
+      name: "More Powerful Engine Swap",
+      initialCost: 110000,
+      rate: 90,
+      description: "Basically the bugatti chiron"
     },
 {
       name: "Medium Size Thrusters",
       initialCost: 150000,
-      rate: 65,
+      rate: 105,
       description: "Medium size, bigger than small thrusters."
     },
   {
       name: "Large Thrusters",
       initialCost: 300000,
-      rate: 85,
+      rate: 125,
       description: "One of the bigger thrusters"
     },
     {
       name: "XL Thrusters",
       initialCost: 900000,
-      rate: 165,
+      rate: 385,
       description: "Extra Large Thrusters"
     },
   
