@@ -12,12 +12,24 @@
     <script src="vars.js"></script>
     <script src="table.js"></script>
     <script src="index.js"></script>
-    <script src="keys.js"></script>
+    <script>// Get the input field
+var input = document.getElementById("click");
+
+// Execute a function when the user presses a key on the keyboard
+input.addEventListener("keypress", function(event) {
+  // If the user presses the "Enter" key on the keyboard
+  if (event.key === "Enter") {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    document.getElementById("click").bakeCookie();
+  }
+});
+  </script>
     
-    <h1>Car Clicker v1.2.2</h1>
+    <h1>Car Clicker v1.2.3</h1>
     <h4>HP:</h4> <h2 id="cookieCount"></h2>
     <img id="click" src="game1.png" onclick="bakeCookie();" />
-
     <h4>Stats</h4>
     <p class="cps">HP per second: <var id="cps"></var></p>
     <p class="cpc">HP per click: <var id="cpc"></var></p>
