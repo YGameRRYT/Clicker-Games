@@ -3,11 +3,12 @@
 }
 
 body {
-  background-color: #58ACFA;
+  background-color: #000000;
 }
 
 h1, h2 {
   font-family: "Trebuchet MS";
+  color:FFFFFF;
 }
 
 h4 {
